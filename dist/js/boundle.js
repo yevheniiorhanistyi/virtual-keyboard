@@ -90,11 +90,74 @@
 /*!************************!*\
   !*** ./src/js/main.js ***!
   \************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
+/*! no exports provided */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _modules_createHeader__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./modules/createHeader */ "./src/js/modules/createHeader.js");
+/* harmony import */ var _modules_createFooter__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./modules/createFooter */ "./src/js/modules/createFooter.js");
 
 
+// import { generateKeyboard } from "./modules/generateKeyboard";
 
+window.addEventListener('DOMContentLoaded', () => {
+    Object(_modules_createHeader__WEBPACK_IMPORTED_MODULE_0__["createHeader"])();
+    Object(_modules_createFooter__WEBPACK_IMPORTED_MODULE_1__["createFooter"])();
+});
+
+/***/ }),
+
+/***/ "./src/js/modules/createFooter.js":
+/*!****************************************!*\
+  !*** ./src/js/modules/createFooter.js ***!
+  \****************************************/
+/*! exports provided: createFooter */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "createFooter", function() { return createFooter; });
+const createFooter = () => {
+    const footer = document.createElement('footer');
+    const description = document.createElement('p');
+    const language = document.createElement('p');
+
+    footer.classList.add('footer');
+    description.classList.add('description');
+    language.classList.add('language');
+
+    description.innerHTML = 'Клавиатура создана в операционной системе Windows';
+    language.innerHTML = 'Для переключения языка комбинация: левыe ctrl + alt';
+
+    document.querySelector('body').append(footer);
+    footer.append(description);
+    footer.append(language);
+};
+
+/***/ }),
+
+/***/ "./src/js/modules/createHeader.js":
+/*!****************************************!*\
+  !*** ./src/js/modules/createHeader.js ***!
+  \****************************************/
+/*! exports provided: createHeader */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "createHeader", function() { return createHeader; });
+const createHeader = () => {
+    const header = document.createElement('header');
+    const headerTitle = document.createElement('h1');
+
+    header.classList.add('header');
+    headerTitle.classList.add('header__title');
+
+    headerTitle.innerHTML = 'RSS Виртуальная клавиатура';
+    document.querySelector('body').append(header);
+    header.append(headerTitle);
+};
 
 /***/ })
 

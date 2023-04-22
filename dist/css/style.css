@@ -400,7 +400,7 @@ h6 {
   outline: 1px solid #173a5e;
 }
 
-.keyboard {
+.keyboard-container {
   width: 100%;
   padding: 5px;
   padding-left: 0;
@@ -408,12 +408,14 @@ h6 {
   border: 1px solid #132f4c;
   border-radius: 10px;
 }
+
 .keyboard-row {
   display: flex;
   width: 100%;
   height: 40px;
   margin-bottom: 8px;
 }
+
 .keyboard-key {
   width: 40px;
   height: 40px;
@@ -422,6 +424,7 @@ h6 {
   text-align: center;
   color: #66b2ff;
   background: #132f4c;
+  border: none;
   border-radius: 3px;
   cursor: pointer;
   position: relative;
@@ -431,24 +434,28 @@ h6 {
   color: #fff;
   background-color: rgba(51, 153, 255, 0.2392156863);
 }
-.keyboard .active {
+.keyboard-key:active {
   top: 1px;
   color: #fff;
   background-color: rgba(51, 153, 255, 0.2392156863);
 }
-.keyboard .Backspace,
-.keyboard .CapsLock,
-.keyboard .Enter,
-.keyboard .Shift {
+
+.Backspace,
+.CapsLock,
+.Enter,
+.Shift {
   width: 100px;
 }
-.keyboard .Delete {
+
+.Delete {
   width: 44px;
 }
-.keyboard .ShiftRight {
+
+.ShiftRight {
   width: 86px;
 }
-.keyboard .Space {
+
+.Space {
   width: 330px;
 }
 
@@ -463,6 +470,12 @@ h6 {
   line-height: 1.5;
   letter-spacing: 0;
   color: #b2bac2;
+}
+
+.active {
+  top: 1px;
+  color: #fff;
+  background-color: rgba(51, 153, 255, 0.2392156863);
 }
 
 .hidden {
