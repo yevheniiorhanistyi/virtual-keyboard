@@ -303,6 +303,223 @@ const englishKeys = [
 
 /***/ }),
 
+/***/ "./src/js/assets/russianKeys.js":
+/*!**************************************!*\
+  !*** ./src/js/assets/russianKeys.js ***!
+  \**************************************/
+/*! exports provided: russianKeys */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "russianKeys", function() { return russianKeys; });
+const russianKeys = [
+    [
+        {
+            code: 'Backquote', key: 'ё', shiftKey: 'Ё',
+        },
+        {
+            code: 'Digit1', key: 1, shiftKey: '!'
+        },
+        {
+            code: 'Digit2', key: 2, shiftKey: '"',
+        },
+        {
+            code: 'Digit3', key: 3, shiftKey: '№',
+        },
+        {
+            code: 'Digit4', key: 4, shiftKey: ';',
+        },
+        {
+            code: 'Digit5', key: 5, shiftKey: '%'
+        },
+        {
+            code: 'Digit6', key: 6, shiftKey: ':',
+        },
+        {
+            code: 'Digit7', key: 7, shiftKey: '?',
+        },
+        {
+            code: 'Digit8', key: 8, shiftKey: '*'
+        },
+        {
+            code: 'Digit9', key: 9, shiftKey: '('
+        },
+        {
+            code: 'Digit0', key: 0, shiftKey: ')'
+        },
+        {
+            code: 'Minus', key: '-', shiftKey: '_'
+        },
+        {
+            code: 'Equal', key: '=', shiftKey: '+'
+        },
+        {
+            code: 'Backspace', key: 'Backspace', class: 'Backspace'
+        },
+    ],
+    [
+        {
+            code: 'Tab', key: 'Tab'
+        },
+        {
+            code: 'KeyQ', key: 'й', shiftKey: 'Й',
+        },
+        {
+            code: 'KeyW', key: 'ц', shiftKey: 'Ц',
+        },
+        {
+            code: 'KeyE', key: 'у', shiftKey: 'У',
+        },
+        {
+            code: 'KeyR', key: 'к', shiftKey: 'К',
+        },
+        {
+            code: 'KeyT', key: 'е', shiftKey: 'Е',
+        },
+        {
+            code: 'KeyY', key: 'н', shiftKey: 'Н',
+        },
+        {
+            code: 'KeyU', key: 'г', shiftKey: 'Г',
+        },
+        {
+            code: 'KeyI', key: 'ш', shiftKey: 'Ш',
+        },
+        {
+            code: 'KeyO', key: 'щ', shiftKey: 'Щ',
+        },
+        {
+            code: 'KeyP', key: 'з', shiftKey: 'З',
+        },
+        {
+            code: 'BracketLeft', key: 'х', shiftKey: 'Х',
+        },
+        {
+            code: 'BracketRight', key: 'ъ', shiftKey: 'Ъ',
+        },
+        {
+            code: 'Backslash', key: '\\', shiftKey: '/',
+        },
+        {
+            code: 'Delete', key: 'Del', class: 'Delete'
+        },
+    ],
+    [
+        {
+            code: 'CapsLock', key: 'CapsLock', class: 'CapsLock'
+        },
+        {
+            code: 'KeyA', key: 'ф', shiftKey: 'Ф',
+        },
+        {
+            code: 'KeyS', key: 'ы', shiftKey: 'Ы',
+        },
+        {
+            code: 'KeyD', key: 'в', shiftKey: 'В',
+        },
+        {
+            code: 'KeyF', key: 'а', shiftKey: 'А',
+        },
+        {
+            code: 'KeyG', key: 'п', shiftKey: 'П',
+        },
+        {
+            code: 'KeyH', key: 'р', shiftKey: 'Р',
+        },
+        {
+            code: 'KeyJ', key: 'о', shiftKey: 'О',
+        },
+        {
+            code: 'KeyK', key: 'л', shiftKey: 'Л',
+        },
+        {
+            code: 'KeyL', key: 'д', shiftKey: 'Д',
+        },
+        {
+            code: 'Semicolon', key: 'ж', shiftKey: 'Ж',
+        },
+        {
+            code: 'Quote', key: 'э', shiftKey: 'Э',
+        },
+        {
+            code: 'Enter', key: 'Enter', class: 'Enter'
+        },
+    ],
+    [
+        {
+            code: 'ShiftLeft', key: 'Shift', class: 'Shift'
+        },
+        {
+            code: 'KeyZ', key: 'я', shiftKey: 'Я',
+        },
+        {
+            code: 'KeyX', key: 'ч', shiftKey: 'Ч',
+        },
+        {
+            code: 'KeyC', key: 'с', shiftKey: 'С',
+        },
+        {
+            code: 'KeyV', key: 'м', shiftKey: 'М',
+        },
+        {
+            code: 'KeyB', key: 'и', shiftKey: 'И',
+        },
+        {
+            code: 'KeyN', key: 'т', shiftKey: 'Т',
+        },
+        {
+            code: 'KeyM', key: 'ь', shiftKey: 'Ь',
+        },
+        {
+            code: 'Comma', key: 'б', shiftKey: 'Б',
+        },
+        {
+            code: 'Period', key: 'ю', shiftKey: 'Ю',
+        },
+        {
+            code: 'Slash', key: '.', shiftKey: ',',
+        },
+        {
+            code: 'ArrowUp', key: '▲'
+        },
+        {
+            code: 'ShiftRight', key: 'Shift', class: 'ShiftRight'
+        },
+    ],
+    [
+        {
+            code: 'ControlLeft', key: 'Ctrl'
+        },
+        {
+            code: 'MetaRight', key: 'Win'
+        },
+        {
+            code: 'AltLeft', key: 'Alt'
+        },
+        {
+            code: 'Space', key: ' ', class: 'Space'
+        },
+        {
+            code: 'AltRight', key: 'Alt'
+        },
+        {
+            code: 'ArrowLeft', key: '◄'
+        },
+        {
+            code: 'ArrowDown', key: '▼'
+        },
+        {
+            code: 'ArrowRight', key: '►'
+        },
+        {
+            code: 'ControlRight', key: 'Ctrl'
+        },
+    ],
+];
+
+/***/ }),
+
 /***/ "./src/js/main.js":
 /*!************************!*\
   !*** ./src/js/main.js ***!
@@ -312,24 +529,17 @@ const englishKeys = [
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _assets_englishKeys__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./assets/englishKeys */ "./src/js/assets/englishKeys.js");
-/* harmony import */ var _modules_createHeader__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./modules/createHeader */ "./src/js/modules/createHeader.js");
-/* harmony import */ var _modules_createTextarea__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./modules/createTextarea */ "./src/js/modules/createTextarea.js");
-/* harmony import */ var _modules_generateKeyboard__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./modules/generateKeyboard */ "./src/js/modules/generateKeyboard.js");
-/* harmony import */ var _modules_createMain__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./modules/createMain */ "./src/js/modules/createMain.js");
-/* harmony import */ var _modules_createFooter__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./modules/createFooter */ "./src/js/modules/createFooter.js");
-
-// import { russianKeys } from './assets/russianKeys';
-
-
+/* harmony import */ var _modules_createHeader__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./modules/createHeader */ "./src/js/modules/createHeader.js");
+/* harmony import */ var _modules_createMain__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./modules/createMain */ "./src/js/modules/createMain.js");
+/* harmony import */ var _modules_createFooter__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./modules/createFooter */ "./src/js/modules/createFooter.js");
 
 
 
 
 window.addEventListener('DOMContentLoaded', () => {
-    Object(_modules_createHeader__WEBPACK_IMPORTED_MODULE_1__["createHeader"])();
-    Object(_modules_createMain__WEBPACK_IMPORTED_MODULE_4__["createMain"])(Object(_modules_createTextarea__WEBPACK_IMPORTED_MODULE_2__["createTextarea"])(), Object(_modules_generateKeyboard__WEBPACK_IMPORTED_MODULE_3__["generateKeyboard"])(_assets_englishKeys__WEBPACK_IMPORTED_MODULE_0__["englishKeys"]));
-    Object(_modules_createFooter__WEBPACK_IMPORTED_MODULE_5__["createFooter"])();
+    Object(_modules_createHeader__WEBPACK_IMPORTED_MODULE_0__["createHeader"])();
+    Object(_modules_createMain__WEBPACK_IMPORTED_MODULE_1__["createMain"])();
+    Object(_modules_createFooter__WEBPACK_IMPORTED_MODULE_2__["createFooter"])();
 });
 
 /***/ }),
@@ -397,7 +607,12 @@ const createHeader = () => {
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "createMain", function() { return createMain; });
-function createMain() {
+/* harmony import */ var _createTextarea__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./createTextarea */ "./src/js/modules/createTextarea.js");
+/* harmony import */ var _generateKeyboard__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./generateKeyboard */ "./src/js/modules/generateKeyboard.js");
+
+
+
+const createMain = () => {
     const main = document.createElement('main');
     const container = document.createElement('div');
 
@@ -407,11 +622,8 @@ function createMain() {
     document.querySelector('body').append(main);
     main.append(container);
 
-    if (arguments.length > 0) {
-        for (let item of arguments) {
-            container.append(item)
-        }
-    }
+    container.append(Object(_createTextarea__WEBPACK_IMPORTED_MODULE_0__["createTextarea"])());
+    container.append(Object(_generateKeyboard__WEBPACK_IMPORTED_MODULE_1__["generateKeyboard"])());
 }
 
 /***/ }),
@@ -449,22 +661,41 @@ const createTextarea = () => {
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "generateKeyboard", function() { return generateKeyboard; });
-const generateKeyboard = (language) => {
+/* harmony import */ var _assets_englishKeys__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../assets/englishKeys */ "./src/js/assets/englishKeys.js");
+/* harmony import */ var _assets_russianKeys__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../assets/russianKeys */ "./src/js/assets/russianKeys.js");
+
+
+
+const generateKeyboard = () => {
+    const lang = localStorage.getItem('language');
+    const currentLang = lang === 'rus' ? _assets_russianKeys__WEBPACK_IMPORTED_MODULE_1__["russianKeys"] : _assets_englishKeys__WEBPACK_IMPORTED_MODULE_0__["englishKeys"];
 
     const keyboardContainer = document.createElement('div');
 
     keyboardContainer.classList.add('keyboard-container');
 
-    for (let i = 0; i < language.length; i++) {
+    for (let i = 0; i < currentLang.length; i++) {
         const row = document.createElement('div');
         row.classList.add('keyboard-row');
         keyboardContainer.append(row);
 
-        for (let j = 0; j < language[i].length; j++) {
+        for (let j = 0; j < currentLang[i].length; j++) {
             const button = document.createElement('button');
+            const key = document.createElement('span');
+            key.classList.add('key');
             button.classList.add('keyboard-key');
-            button.innerHTML = language[i][j]['key'];
-            if (language[i][j]['class']) button.classList.add(language[i][j]['class']);
+
+            key.innerHTML = currentLang[i][j]['key'];
+            button.append(key);
+
+            if (currentLang[i][j]['shiftKey']) {
+                const shiftKey = document.createElement('span');
+                shiftKey.classList.add('shiftKey', 'hidden');
+                shiftKey.innerHTML = currentLang[i][j]['shiftKey'];
+                button.append(shiftKey);
+            }
+
+            if (currentLang[i][j]['class']) button.classList.add(currentLang[i][j]['class']);
             row.append(button);
         }
 
