@@ -99,204 +99,204 @@ __webpack_require__.r(__webpack_exports__);
 const englishKeys = [
     [
         {
-            code: 'Backquote', key: '`', shiftKey: '~'
+            code: 'Backquote', key: '`', keyCode: 192, shiftKey: '~'
         },
         {
-            code: 'Digit1', key: '1', shiftKey: '!'
+            code: 'Digit1', key: '1', keyCode: 49, shiftKey: '!'
         },
         {
-            code: 'Digit2', key: '2', shiftKey: '@'
+            code: 'Digit2', key: '2', keyCode: 50, shiftKey: '@'
         },
         {
-            code: 'Digit3', key: '3', shiftKey: '#'
+            code: 'Digit3', key: '3', keyCode: 51, shiftKey: '#'
         },
         {
-            code: 'Digit4', key: '4', shiftKey: '$'
+            code: 'Digit4', key: '4', keyCode: 52, shiftKey: '$'
         },
         {
-            code: 'Digit5', key: '5', shiftKey: '%'
+            code: 'Digit5', key: '5', keyCode: 53, shiftKey: '%'
         },
         {
-            code: 'Digit6', key: '6', shiftKey: '^'
+            code: 'Digit6', key: '6', keyCode: 54, shiftKey: '^'
         },
         {
-            code: 'Digit7', key: '7', shiftKey: '&'
+            code: 'Digit7', key: '7', keyCode: 55, shiftKey: '&'
         },
         {
-            code: 'Digit8', key: '8', shiftKey: '*'
+            code: 'Digit8', key: '8', keyCode: 56, shiftKey: '*'
         },
         {
-            code: 'Digit9', key: '9', shiftKey: '('
+            code: 'Digit9', key: '9', keyCode: 57, shiftKey: '('
         },
         {
-            code: 'Digit0', key: '0', shiftKey: ')'
+            code: 'Digit0', key: '0', keyCode: 48, shiftKey: ')'
         },
         {
-            code: 'Minus', key: '-', shiftKey: '_'
+            code: 'Minus', key: '-', keyCode: 189, shiftKey: '_'
         },
         {
-            code: 'Equal', key: '=', shiftKey: '+'
+            code: 'Equal', key: '=', keyCode: 187, shiftKey: '+'
         },
         {
-            code: 'Backspace', key: 'Backspace', class: 'Backspace'
-        },
-    ],
-    [
-        {
-            code: 'Tab', key: 'Tab'
-        },
-        {
-            code: 'KeyQ', key: 'q', shiftKey: 'Q'
-        },
-        {
-            code: 'KeyW', key: 'w', shiftKey: 'W'
-        },
-        {
-            code: 'KeyE', key: 'e', shiftKey: 'E'
-        },
-        {
-            code: 'KeyR', key: 'r', shiftKey: 'R'
-        },
-        {
-            code: 'KeyT', key: 't', shiftKey: 'T'
-        },
-        {
-            code: 'KeyY', key: 'y', shiftKey: 'Y'
-        },
-        {
-            code: 'KeyU', key: 'u', shiftKey: 'U'
-        },
-        {
-            code: 'KeyI', key: 'i', shiftKey: 'I'
-        },
-        {
-            code: 'KeyO', key: 'o', shiftKey: 'O'
-        },
-        {
-            code: 'KeyP', key: 'p', shiftKey: 'P'
-        },
-        {
-            code: 'BracketLeft', key: '[', shiftKey: '{'
-        },
-        {
-            code: 'BracketRight', key: ']', shiftKey: '}'
-        },
-        {
-            code: 'Backslash', key: '\\', shiftKey: '|'
-        },
-        {
-            code: 'Delete', key: 'Del', class: 'Delete'
+            code: 'Backspace', key: 'Backspace', keyCode: 8, class: 'Backspace'
         },
     ],
     [
         {
-            code: 'CapsLock', key: 'CapsLock', class: 'CapsLock'
+            code: 'Tab', key: 'Tab', keyCode: 9,
         },
         {
-            code: 'KeyA', key: 'a', shiftKey: 'A'
+            code: 'KeyQ', key: 'q', keyCode: 81, shiftKey: 'Q'
         },
         {
-            code: 'KeyS', key: 's', shiftKey: 'S'
+            code: 'KeyW', key: 'w', keyCode: 87, shiftKey: 'W'
         },
         {
-            code: 'KeyD', key: 'd', shiftKey: 'D'
+            code: 'KeyE', key: 'e', keyCode: 69, shiftKey: 'E'
         },
         {
-            code: 'KeyF', key: 'f', shiftKey: 'F'
+            code: 'KeyR', key: 'r', keyCode: 82, shiftKey: 'R'
         },
         {
-            code: 'KeyG', key: 'g', shiftKey: 'G'
+            code: 'KeyT', key: 't', keyCode: 84, shiftKey: 'T'
         },
         {
-            code: 'KeyH', key: 'h', shiftKey: 'H'
+            code: 'KeyY', key: 'y', keyCode: 89, shiftKey: 'Y'
         },
         {
-            code: 'KeyJ', key: 'j', shiftKey: 'J'
+            code: 'KeyU', key: 'u', keyCode: 85, shiftKey: 'U'
         },
         {
-            code: 'KeyK', key: 'k', shiftKey: 'K'
+            code: 'KeyI', key: 'i', keyCode: 73, shiftKey: 'I'
         },
         {
-            code: 'KeyL', key: 'l', shiftKey: 'L'
+            code: 'KeyO', key: 'o', keyCode: 79, shiftKey: 'O'
         },
         {
-            code: 'Semicolon', key: ';', shiftKey: ':'
+            code: 'KeyP', key: 'p', keyCode: 80, shiftKey: 'P'
         },
         {
-            code: 'Quote', key: "'", shiftKey: '"',
+            code: 'BracketLeft', key: '[', keyCode: 219, shiftKey: '{'
         },
         {
-            code: 'Enter', key: 'Enter', class: 'Enter'
-        },
-    ],
-    [
-        {
-            code: 'ShiftLeft', key: 'Shift', class: 'Shift'
+            code: 'BracketRight', key: ']', keyCode: 221, shiftKey: '}'
         },
         {
-            code: 'KeyZ', key: 'z', shiftKey: 'Z'
+            code: 'Backslash', key: '\\', keyCode: 220, shiftKey: '|'
         },
         {
-            code: 'KeyX', key: 'x', shiftKey: 'X'
-        },
-        {
-            code: 'KeyC', key: 'c', shiftKey: 'C'
-        },
-        {
-            code: 'KeyV', key: 'v', shiftKey: 'V'
-        },
-        {
-            code: 'KeyB', key: 'b', shiftKey: 'B'
-        },
-        {
-            code: 'KeyN', key: 'n', shiftKey: 'N'
-        },
-        {
-            code: 'KeyM', key: 'm', shiftKey: 'M'
-        },
-        {
-            code: 'Comma', key: ',', shiftKey: '<',
-        },
-        {
-            code: 'Period', key: '.', shiftKey: '>',
-        },
-        {
-            code: 'Slash', key: '/', shiftKey: '?',
-        },
-        {
-            code: 'ArrowUp', key: '▲'
-        },
-        {
-            code: 'ShiftRight', key: 'Shift', class: 'ShiftRight'
+            code: 'Delete', key: 'Del', keyCode: 46, class: 'Delete'
         },
     ],
     [
         {
-            code: 'ControlLeft', key: 'Ctrl'
+            code: 'CapsLock', key: 'CapsLock', keyCode: 20, class: 'CapsLock'
         },
         {
-            code: 'MetaRight', key: 'Win'
+            code: 'KeyA', key: 'a', keyCode: 65, shiftKey: 'A'
         },
         {
-            code: 'AltLeft', key: 'Alt'
+            code: 'KeyS', key: 's', keyCode: 83, shiftKey: 'S'
         },
         {
-            code: 'Space', key: ' ', class: 'Space'
+            code: 'KeyD', key: 'd', keyCode: 68, shiftKey: 'D'
         },
         {
-            code: 'AltRight', key: 'Alt'
+            code: 'KeyF', key: 'f', keyCode: 70, shiftKey: 'F'
         },
         {
-            code: 'ArrowLeft', key: '◄'
+            code: 'KeyG', key: 'g', keyCode: 71, shiftKey: 'G'
         },
         {
-            code: 'ArrowDown', key: '▼'
+            code: 'KeyH', key: 'h', keyCode: 72, shiftKey: 'H'
         },
         {
-            code: 'ArrowRight', key: '►'
+            code: 'KeyJ', key: 'j', keyCode: 74, shiftKey: 'J'
         },
         {
-            code: 'ControlRight', key: 'Ctrl'
+            code: 'KeyK', key: 'k', keyCode: 75, shiftKey: 'K'
+        },
+        {
+            code: 'KeyL', key: 'l', keyCode: 76, shiftKey: 'L'
+        },
+        {
+            code: 'Semicolon', key: ';', keyCode: 186, shiftKey: ':'
+        },
+        {
+            code: 'Quote', key: "'", keyCode: 222, shiftKey: '"',
+        },
+        {
+            code: 'Enter', key: 'Enter', keyCode: 13, class: 'Enter'
+        },
+    ],
+    [
+        {
+            code: 'ShiftLeft', key: 'Shift', keyCode: 13, class: 'Shift'
+        },
+        {
+            code: 'KeyZ', key: 'z', keyCode: 90, shiftKey: 'Z'
+        },
+        {
+            code: 'KeyX', key: 'x', keyCode: 88, shiftKey: 'X'
+        },
+        {
+            code: 'KeyC', key: 'c', keyCode: 67, shiftKey: 'C'
+        },
+        {
+            code: 'KeyV', key: 'v', keyCode: 86, shiftKey: 'V'
+        },
+        {
+            code: 'KeyB', key: 'b', keyCode: 66, shiftKey: 'B'
+        },
+        {
+            code: 'KeyN', key: 'n', keyCode: 78, shiftKey: 'N'
+        },
+        {
+            code: 'KeyM', key: 'm', keyCode: 77, shiftKey: 'M'
+        },
+        {
+            code: 'Comma', key: ',', keyCode: 188, shiftKey: '<',
+        },
+        {
+            code: 'Period', key: '.', keyCode: 190, shiftKey: '>',
+        },
+        {
+            code: 'Slash', key: '/', keyCode: 191, shiftKey: '?',
+        },
+        {
+            code: 'ArrowUp', key: '▲', keyCode: 38,
+        },
+        {
+            code: 'ShiftRight', key: 'Shift', keyCode: 16, class: 'ShiftRight'
+        },
+    ],
+    [
+        {
+            code: 'ControlLeft', key: 'Ctrl', keyCode: 17,
+        },
+        {
+            code: 'MetaRight', key: 'Win', keyCode: 91,
+        },
+        {
+            code: 'AltLeft', key: 'Alt', keyCode: 18,
+        },
+        {
+            code: 'Space', key: ' ', keyCode: 32, class: 'Space'
+        },
+        {
+            code: 'AltRight', key: 'Alt', keyCode: 18,
+        },
+        {
+            code: 'ArrowLeft', key: '◄', keyCode: 37,
+        },
+        {
+            code: 'ArrowDown', key: '▼', keyCode: 40,
+        },
+        {
+            code: 'ArrowRight', key: '►', keyCode: 39,
+        },
+        {
+            code: 'ControlRight', key: 'Ctrl', keyCode: 17,
         },
     ]
 ];
@@ -316,204 +316,204 @@ __webpack_require__.r(__webpack_exports__);
 const russianKeys = [
     [
         {
-            code: 'Backquote', key: 'ё', shiftKey: 'Ё',
+            code: 'Backquote', key: 'ё', keyCode: 192, shiftKey: 'Ё',
         },
         {
-            code: 'Digit1', key: 1, shiftKey: '!'
+            code: 'Digit1', key: 1, keyCode: 49, shiftKey: '!'
         },
         {
-            code: 'Digit2', key: 2, shiftKey: '"',
+            code: 'Digit2', key: 2, keyCode: 50, shiftKey: '"',
         },
         {
-            code: 'Digit3', key: 3, shiftKey: '№',
+            code: 'Digit3', key: 3, keyCode: 51, shiftKey: '№',
         },
         {
-            code: 'Digit4', key: 4, shiftKey: ';',
+            code: 'Digit4', key: 4, keyCode: 52, shiftKey: ';',
         },
         {
-            code: 'Digit5', key: 5, shiftKey: '%'
+            code: 'Digit5', key: 5, keyCode: 53, shiftKey: '%'
         },
         {
-            code: 'Digit6', key: 6, shiftKey: ':',
+            code: 'Digit6', key: 6, keyCode: 54, shiftKey: ':',
         },
         {
-            code: 'Digit7', key: 7, shiftKey: '?',
+            code: 'Digit7', key: 7, keyCode: 55, shiftKey: '?',
         },
         {
-            code: 'Digit8', key: 8, shiftKey: '*'
+            code: 'Digit8', key: 8, keyCode: 56, shiftKey: '*'
         },
         {
-            code: 'Digit9', key: 9, shiftKey: '('
+            code: 'Digit9', key: 9, keyCode: 57, shiftKey: '('
         },
         {
-            code: 'Digit0', key: 0, shiftKey: ')'
+            code: 'Digit0', key: 0, keyCode: 48, shiftKey: ')'
         },
         {
-            code: 'Minus', key: '-', shiftKey: '_'
+            code: 'Minus', key: '-', keyCode: 189, shiftKey: '_'
         },
         {
-            code: 'Equal', key: '=', shiftKey: '+'
+            code: 'Equal', key: '=', keyCode: 187, shiftKey: '+'
         },
         {
-            code: 'Backspace', key: 'Backspace', class: 'Backspace'
-        },
-    ],
-    [
-        {
-            code: 'Tab', key: 'Tab'
-        },
-        {
-            code: 'KeyQ', key: 'й', shiftKey: 'Й',
-        },
-        {
-            code: 'KeyW', key: 'ц', shiftKey: 'Ц',
-        },
-        {
-            code: 'KeyE', key: 'у', shiftKey: 'У',
-        },
-        {
-            code: 'KeyR', key: 'к', shiftKey: 'К',
-        },
-        {
-            code: 'KeyT', key: 'е', shiftKey: 'Е',
-        },
-        {
-            code: 'KeyY', key: 'н', shiftKey: 'Н',
-        },
-        {
-            code: 'KeyU', key: 'г', shiftKey: 'Г',
-        },
-        {
-            code: 'KeyI', key: 'ш', shiftKey: 'Ш',
-        },
-        {
-            code: 'KeyO', key: 'щ', shiftKey: 'Щ',
-        },
-        {
-            code: 'KeyP', key: 'з', shiftKey: 'З',
-        },
-        {
-            code: 'BracketLeft', key: 'х', shiftKey: 'Х',
-        },
-        {
-            code: 'BracketRight', key: 'ъ', shiftKey: 'Ъ',
-        },
-        {
-            code: 'Backslash', key: '\\', shiftKey: '/',
-        },
-        {
-            code: 'Delete', key: 'Del', class: 'Delete'
+            code: 'Backspace', key: 'Backspace', keyCode: 8, class: 'Backspace'
         },
     ],
     [
         {
-            code: 'CapsLock', key: 'CapsLock', class: 'CapsLock'
+            code: 'Tab', key: 'Tab', keyCode: 9,
         },
         {
-            code: 'KeyA', key: 'ф', shiftKey: 'Ф',
+            code: 'KeyQ', key: 'й', keyCode: 81, shiftKey: 'Й',
         },
         {
-            code: 'KeyS', key: 'ы', shiftKey: 'Ы',
+            code: 'KeyW', key: 'ц', keyCode: 87, shiftKey: 'Ц',
         },
         {
-            code: 'KeyD', key: 'в', shiftKey: 'В',
+            code: 'KeyE', key: 'у', keyCode: 69, shiftKey: 'У',
         },
         {
-            code: 'KeyF', key: 'а', shiftKey: 'А',
+            code: 'KeyR', key: 'к', keyCode: 82, shiftKey: 'К',
         },
         {
-            code: 'KeyG', key: 'п', shiftKey: 'П',
+            code: 'KeyT', key: 'е', keyCode: 84, shiftKey: 'Е',
         },
         {
-            code: 'KeyH', key: 'р', shiftKey: 'Р',
+            code: 'KeyY', key: 'н', keyCode: 89, shiftKey: 'Н',
         },
         {
-            code: 'KeyJ', key: 'о', shiftKey: 'О',
+            code: 'KeyU', key: 'г', keyCode: 85, shiftKey: 'Г',
         },
         {
-            code: 'KeyK', key: 'л', shiftKey: 'Л',
+            code: 'KeyI', key: 'ш', keyCode: 73, shiftKey: 'Ш',
         },
         {
-            code: 'KeyL', key: 'д', shiftKey: 'Д',
+            code: 'KeyO', key: 'щ', keyCode: 79, shiftKey: 'Щ',
         },
         {
-            code: 'Semicolon', key: 'ж', shiftKey: 'Ж',
+            code: 'KeyP', key: 'з', keyCode: 80, shiftKey: 'З',
         },
         {
-            code: 'Quote', key: 'э', shiftKey: 'Э',
+            code: 'BracketLeft', key: 'х', keyCode: 219, shiftKey: 'Х',
         },
         {
-            code: 'Enter', key: 'Enter', class: 'Enter'
-        },
-    ],
-    [
-        {
-            code: 'ShiftLeft', key: 'Shift', class: 'Shift'
+            code: 'BracketRight', key: 'ъ', keyCode: 221, shiftKey: 'Ъ',
         },
         {
-            code: 'KeyZ', key: 'я', shiftKey: 'Я',
+            code: 'Backslash', key: '\\', keyCode: 220, shiftKey: '/',
         },
         {
-            code: 'KeyX', key: 'ч', shiftKey: 'Ч',
-        },
-        {
-            code: 'KeyC', key: 'с', shiftKey: 'С',
-        },
-        {
-            code: 'KeyV', key: 'м', shiftKey: 'М',
-        },
-        {
-            code: 'KeyB', key: 'и', shiftKey: 'И',
-        },
-        {
-            code: 'KeyN', key: 'т', shiftKey: 'Т',
-        },
-        {
-            code: 'KeyM', key: 'ь', shiftKey: 'Ь',
-        },
-        {
-            code: 'Comma', key: 'б', shiftKey: 'Б',
-        },
-        {
-            code: 'Period', key: 'ю', shiftKey: 'Ю',
-        },
-        {
-            code: 'Slash', key: '.', shiftKey: ',',
-        },
-        {
-            code: 'ArrowUp', key: '▲'
-        },
-        {
-            code: 'ShiftRight', key: 'Shift', class: 'ShiftRight'
+            code: 'Delete', key: 'Del', keyCode: 46, class: 'Delete'
         },
     ],
     [
         {
-            code: 'ControlLeft', key: 'Ctrl'
+            code: 'CapsLock', key: 'CapsLock', keyCode: 20, class: 'CapsLock'
         },
         {
-            code: 'MetaRight', key: 'Win'
+            code: 'KeyA', key: 'ф', keyCode: 65, shiftKey: 'Ф',
         },
         {
-            code: 'AltLeft', key: 'Alt'
+            code: 'KeyS', key: 'ы', keyCode: 83, shiftKey: 'Ы',
         },
         {
-            code: 'Space', key: ' ', class: 'Space'
+            code: 'KeyD', key: 'в', keyCode: 68, shiftKey: 'В',
         },
         {
-            code: 'AltRight', key: 'Alt'
+            code: 'KeyF', key: 'а', keyCode: 70, shiftKey: 'А',
         },
         {
-            code: 'ArrowLeft', key: '◄'
+            code: 'KeyG', key: 'п', keyCode: 71, shiftKey: 'П',
         },
         {
-            code: 'ArrowDown', key: '▼'
+            code: 'KeyH', key: 'р', keyCode: 72, shiftKey: 'Р',
         },
         {
-            code: 'ArrowRight', key: '►'
+            code: 'KeyJ', key: 'о', keyCode: 74, shiftKey: 'О',
         },
         {
-            code: 'ControlRight', key: 'Ctrl'
+            code: 'KeyK', key: 'л', keyCode: 75, shiftKey: 'Л',
+        },
+        {
+            code: 'KeyL', key: 'д', keyCode: 76, shiftKey: 'Д',
+        },
+        {
+            code: 'Semicolon', key: 'ж', keyCode: 186, shiftKey: 'Ж',
+        },
+        {
+            code: 'Quote', key: 'э', keyCode: 222, shiftKey: 'Э',
+        },
+        {
+            code: 'Enter', key: 'Enter', keyCode: 13, class: 'Enter'
+        },
+    ],
+    [
+        {
+            code: 'ShiftLeft', key: 'Shift', keyCode: 13, class: 'Shift'
+        },
+        {
+            code: 'KeyZ', key: 'я', keyCode: 90, shiftKey: 'Я',
+        },
+        {
+            code: 'KeyX', key: 'ч', keyCode: 88, shiftKey: 'Ч',
+        },
+        {
+            code: 'KeyC', key: 'с', keyCode: 67, shiftKey: 'С',
+        },
+        {
+            code: 'KeyV', key: 'м', keyCode: 86, shiftKey: 'М',
+        },
+        {
+            code: 'KeyB', key: 'и', keyCode: 66, shiftKey: 'И',
+        },
+        {
+            code: 'KeyN', key: 'т', keyCode: 78, shiftKey: 'Т',
+        },
+        {
+            code: 'KeyM', key: 'ь', keyCode: 77, shiftKey: 'Ь',
+        },
+        {
+            code: 'Comma', key: 'б', keyCode: 188, shiftKey: 'Б',
+        },
+        {
+            code: 'Period', key: 'ю', keyCode: 190, shiftKey: 'Ю',
+        },
+        {
+            code: 'Slash', key: '.', keyCode: 191, shiftKey: ',',
+        },
+        {
+            code: 'ArrowUp', key: '▲', keyCode: 38,
+        },
+        {
+            code: 'ShiftRight', key: 'Shift', keyCode: 16, class: 'ShiftRight'
+        },
+    ],
+    [
+        {
+            code: 'ControlLeft', key: 'Ctrl', keyCode: 17,
+        },
+        {
+            code: 'MetaRight', key: 'Win', keyCode: 91,
+        },
+        {
+            code: 'AltLeft', key: 'Alt', keyCode: 18,
+        },
+        {
+            code: 'Space', key: ' ', keyCode: 32, class: 'Space'
+        },
+        {
+            code: 'AltRight', key: 'Alt', keyCode: 18,
+        },
+        {
+            code: 'ArrowLeft', key: '◄', keyCode: 37,
+        },
+        {
+            code: 'ArrowDown', key: '▼', keyCode: 40,
+        },
+        {
+            code: 'ArrowRight', key: '►', keyCode: 39,
+        },
+        {
+            code: 'ControlRight', key: 'Ctrl', keyCode: 17,
         },
     ],
 ];
@@ -529,32 +529,36 @@ const russianKeys = [
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _modules_createHeader__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./modules/createHeader */ "./src/js/modules/createHeader.js");
-/* harmony import */ var _modules_createMain__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./modules/createMain */ "./src/js/modules/createMain.js");
-/* harmony import */ var _modules_createFooter__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./modules/createFooter */ "./src/js/modules/createFooter.js");
-
+/* harmony import */ var _modules_createTextarea__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./modules/createTextarea */ "./src/js/modules/createTextarea.js");
+/* harmony import */ var _modules_generateKeyboard__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./modules/generateKeyboard */ "./src/js/modules/generateKeyboard.js");
 
 
 
 window.addEventListener('DOMContentLoaded', () => {
-    Object(_modules_createHeader__WEBPACK_IMPORTED_MODULE_0__["createHeader"])();
-    Object(_modules_createMain__WEBPACK_IMPORTED_MODULE_1__["createMain"])();
-    Object(_modules_createFooter__WEBPACK_IMPORTED_MODULE_2__["createFooter"])();
-});
+    // Header
+    const header = document.createElement('header');
+    const headerTitle = document.createElement('h1');
 
-/***/ }),
+    header.classList.add('header');
+    headerTitle.classList.add('header__title');
 
-/***/ "./src/js/modules/createFooter.js":
-/*!****************************************!*\
-  !*** ./src/js/modules/createFooter.js ***!
-  \****************************************/
-/*! exports provided: createFooter */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
+    headerTitle.innerHTML = 'RSS Виртуальная клавиатура';
+    document.querySelector('body').append(header);
+    header.append(headerTitle);
 
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "createFooter", function() { return createFooter; });
-const createFooter = () => {
+    // Main
+    const main = document.createElement('main');
+    const container = document.createElement('div');
+
+    main.classList.add('main');
+    container.classList.add('container');
+
+    document.querySelector('body').append(main);
+    main.append(container);
+
+    container.append(Object(_modules_createTextarea__WEBPACK_IMPORTED_MODULE_0__["createTextarea"])(), Object(_modules_generateKeyboard__WEBPACK_IMPORTED_MODULE_1__["generateKeyboard"])());
+
+    // Footer
     const footer = document.createElement('footer');
     const description = document.createElement('p');
     const language = document.createElement('p');
@@ -567,64 +571,8 @@ const createFooter = () => {
     language.innerHTML = 'Для переключения языка комбинация: левыe ctrl + alt';
 
     document.querySelector('body').append(footer);
-    footer.append(description);
-    footer.append(language);
-};
-
-/***/ }),
-
-/***/ "./src/js/modules/createHeader.js":
-/*!****************************************!*\
-  !*** ./src/js/modules/createHeader.js ***!
-  \****************************************/
-/*! exports provided: createHeader */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "createHeader", function() { return createHeader; });
-const createHeader = () => {
-    const header = document.createElement('header');
-    const headerTitle = document.createElement('h1');
-
-    header.classList.add('header');
-    headerTitle.classList.add('header__title');
-
-    headerTitle.innerHTML = 'RSS Виртуальная клавиатура';
-    document.querySelector('body').append(header);
-    header.append(headerTitle);
-};
-
-/***/ }),
-
-/***/ "./src/js/modules/createMain.js":
-/*!**************************************!*\
-  !*** ./src/js/modules/createMain.js ***!
-  \**************************************/
-/*! exports provided: createMain */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "createMain", function() { return createMain; });
-/* harmony import */ var _createTextarea__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./createTextarea */ "./src/js/modules/createTextarea.js");
-/* harmony import */ var _generateKeyboard__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./generateKeyboard */ "./src/js/modules/generateKeyboard.js");
-
-
-
-const createMain = () => {
-    const main = document.createElement('main');
-    const container = document.createElement('div');
-
-    main.classList.add('main');
-    container.classList.add('container');
-
-    document.querySelector('body').append(main);
-    main.append(container);
-
-    container.append(Object(_createTextarea__WEBPACK_IMPORTED_MODULE_0__["createTextarea"])());
-    container.append(Object(_generateKeyboard__WEBPACK_IMPORTED_MODULE_1__["generateKeyboard"])());
-}
+    footer.append(description, language);
+});
 
 /***/ }),
 
@@ -682,9 +630,10 @@ const generateKeyboard = () => {
         for (let j = 0; j < currentLang[i].length; j++) {
             const button = document.createElement('button');
             const key = document.createElement('span');
-            key.classList.add('key');
             button.classList.add('keyboard-key');
+            key.classList.add('key');
 
+            button.setAttribute('keyCode', currentLang[i][j]['keyCode']);
             key.innerHTML = currentLang[i][j]['key'];
             button.append(key);
 
