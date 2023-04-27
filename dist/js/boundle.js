@@ -541,6 +541,84 @@ window.addEventListener('DOMContentLoaded', () => {
 
 /***/ }),
 
+/***/ "./src/js/modules/changeInputValue.js":
+/*!********************************************!*\
+  !*** ./src/js/modules/changeInputValue.js ***!
+  \********************************************/
+/*! exports provided: changeInputValue */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "changeInputValue", function() { return changeInputValue; });
+const changeInputValue = (value) => {
+    const textarea = document.querySelector('#textarea'),
+        start = textarea.selectionStart;
+
+    textarea.focus();
+
+    switch (value) {
+
+        case 'Backspace':
+
+            if (start) {
+                textarea.value = textarea.value.slice(0, start - 1) + textarea.value.slice(start);
+                textarea.selectionStart = start - 1;
+                textarea.selectionEnd = start - 1;
+            }
+            break;
+
+        case 'Tab':
+            textarea.value += '    ';
+            break;
+
+        case 'Delete':
+            if (start < textarea.value.length) {
+                textarea.value = textarea.value.slice(0, start) + textarea.value.slice(start + 1);
+                textarea.selectionStart = start;
+                textarea.selectionEnd = start;
+            }
+            break;
+
+        case 'Enter':
+            textarea.value += '\n';
+            break;
+
+        case 'Space':
+            textarea.value += ' ';
+            break;
+
+        case 'ArrowLeft':
+            textarea.value += '◄';
+            break;
+
+        case 'ArrowRight':
+            textarea.value += '►';
+            break;
+
+        case 'ArrowUp':
+            textarea.value += '▲';
+            break;
+
+        case 'ArrowDown':
+            textarea.value += '▼';
+            break;
+
+        case 'Ctrl':
+        case 'Control':
+        case 'Meta':
+        case 'MetaRight':
+        case 'Win':
+        case 'Alt':
+        case 'AltGraph':
+            break;
+
+        default: textarea.value += value;
+    }
+};
+
+/***/ }),
+
 /***/ "./src/js/modules/footer/index.js":
 /*!****************************************!*\
   !*** ./src/js/modules/footer/index.js ***!
@@ -636,20 +714,22 @@ const generateKeyboard = () => {
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "handleClick", function() { return handleClick; });
+/* harmony import */ var _changeInputValue__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./changeInputValue */ "./src/js/modules/changeInputValue.js");
+
 
 const handleClick = () => {
-    const textarea = document.querySelector('#textarea');
     const allButtons = document.querySelectorAll('.keyboard-key');
 
 
     const addActiveClass = (code, key) => {
         allButtons.forEach(btn => {
-            if (btn.getAttribute('code') === code && btn.classList.length <= 1) {
+            if (btn.getAttribute('code') === code) {
                 btn.classList.add('active');
-                textarea.value += key;
             }
         });
-        changeInputValue(key)
+
+        if (key !== 'CapsLock' && key !== 'Shift' && key !== 'ShiftRight') Object(_changeInputValue__WEBPACK_IMPORTED_MODULE_0__["changeInputValue"])(key);
+
     };
 
     const removeActiveClass = () => {
@@ -657,10 +737,6 @@ const handleClick = () => {
             if (!btn.classList.contains('CapsLock')) btn.classList.remove('active');
         });
     };
-
-    const changeInputValue = (value) => {
-        console.log(value)
-    }
 
     document.addEventListener('keydown', (e) => {
         e.preventDefault();
