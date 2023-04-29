@@ -138,12 +138,12 @@ const englishKeys = [
             code: 'Equal', key: '=', 'id': 12, shiftKey: '+'
         },
         {
-            code: 'Backspace', key: 'Backspace', 'id': 13, class: 'Backspace'
+            code: 'Backspace', key: 'Backspace', 'id': 64, class: 'Backspace'
         },
     ],
     [
         {
-            code: 'Tab', key: 'Tab', 'id': 14, class: 'Tab'
+            code: 'Tab', key: 'Tab', 'id': 65, class: 'Tab'
         },
         {
             code: 'KeyQ', key: 'q', 'id': 15, shiftKey: 'Q'
@@ -185,12 +185,12 @@ const englishKeys = [
             code: 'Backslash', key: '\\', 'id': 27, shiftKey: '|'
         },
         {
-            code: 'Delete', key: 'Del', 'id': 28, class: 'Delete'
+            code: 'Delete', key: 'Del', 'id': 66, class: 'Delete'
         },
     ],
     [
         {
-            code: 'CapsLock', key: 'CapsLock', 'id': 29, class: 'CapsLock'
+            code: 'CapsLock', key: 'CapsLock', 'id': 67, class: 'CapsLock'
         },
         {
             code: 'KeyA', key: 'a', 'id': 30, shiftKey: 'A'
@@ -226,12 +226,12 @@ const englishKeys = [
             code: 'Quote', key: "'", 'id': 40, shiftKey: '"',
         },
         {
-            code: 'Enter', key: 'Enter', 'id': 41, class: 'Enter'
+            code: 'Enter', key: 'Enter', 'id': 68, class: 'Enter'
         },
     ],
     [
         {
-            code: 'ShiftLeft', key: 'Shift', 'id': 42, class: 'Shift'
+            code: 'ShiftLeft', key: 'Shift', 'id': 69, class: 'Shift'
         },
         {
             code: 'KeyZ', key: 'z', 'id': 43, shiftKey: 'Z'
@@ -264,39 +264,39 @@ const englishKeys = [
             code: 'Slash', key: '/', 'id': 52, shiftKey: '?',
         },
         {
-            code: 'ArrowUp', key: '▲', 'id': 53, class: 'ArrowUp'
+            code: 'ArrowUp', key: '▲', 'id': 70, class: 'ArrowUp'
         },
         {
-            code: 'ShiftRight', key: 'Shift', 'id': 54, class: 'ShiftRight'
+            code: 'ShiftRight', key: 'Shift', 'id': 71, class: 'ShiftRight'
         },
     ],
     [
         {
-            code: 'ControlLeft', key: 'Ctrl', 'id': 55, class: 'Ctrl'
+            code: 'ControlLeft', key: 'Ctrl', 'id': 72, class: 'Ctrl'
         },
         {
-            code: 'MetaRight', key: 'Win', 'id': 56, class: 'Win'
+            code: 'MetaRight', key: 'Win', 'id': 73, class: 'Win'
         },
         {
-            code: 'AltLeft', key: 'Alt', 'id': 57, class: 'Alt'
+            code: 'AltLeft', key: 'Alt', 'id': 74, class: 'Alt'
         },
         {
-            code: 'Space', key: ' ', 'id': 58, class: 'Space'
+            code: 'Space', key: ' ', 'id': 75, class: 'Space'
         },
         {
-            code: 'AltRight', key: 'Alt', 'id': 59, class: 'Alt'
+            code: 'AltRight', key: 'Alt', 'id': 76, class: 'Alt'
         },
         {
-            code: 'ArrowLeft', key: '◄', 'id': 60, class: 'ArrowLeft'
+            code: 'ArrowLeft', key: '◄', 'id': 77, class: 'ArrowLeft'
         },
         {
-            code: 'ArrowDown', key: '▼', 'id': 61, class: 'ArrowDown'
+            code: 'ArrowDown', key: '▼', 'id': 78, class: 'ArrowDown'
         },
         {
-            code: 'ArrowRight', key: '►', 'id': 62, class: 'ArrowRight'
+            code: 'ArrowRight', key: '►', 'id': 79, class: 'ArrowRight'
         },
         {
-            code: 'ControlRight', key: 'Ctrl', 'id': 63,  class: 'Ctrl'
+            code: 'ControlRight', key: 'Ctrl', 'id': 80, class: 'Ctrl'
         },
     ]
 ];
@@ -355,12 +355,12 @@ const russianKeys = [
             code: 'Equal', key: '=', 'id': 12, shiftKey: '+'
         },
         {
-            code: 'Backspace', key: 'Backspace', 'id': 13, class: 'Backspace'
+            code: 'Backspace', key: 'Backspace', 'id': 64, class: 'Backspace'
         },
     ],
     [
         {
-            code: 'Tab', key: 'Tab', 'id': 14, class: 'Tab'
+            code: 'Tab', key: 'Tab', 'id': 65, class: 'Tab'
         },
         {
             code: 'KeyQ', key: 'й', shiftKey: 'Й', 'id': 15,
@@ -402,12 +402,12 @@ const russianKeys = [
             code: 'Backslash', key: '\\', shiftKey: '/', 'id': 27,
         },
         {
-            code: 'Delete', key: 'Del', 'id': 28, class: 'Delete',
+            code: 'Delete', key: 'Del', 'id': 66, class: 'Delete',
         },
     ],
     [
         {
-            code: 'CapsLock', key: 'CapsLock', 'id': 29, class: 'CapsLock',
+            code: 'CapsLock', key: 'CapsLock', 'id': 67, class: 'CapsLock',
         },
         {
             code: 'KeyA', key: 'ф', shiftKey: 'Ф', 'id': 30,
@@ -443,12 +443,12 @@ const russianKeys = [
             code: 'Quote', key: 'э', shiftKey: 'Э', 'id': 40,
         },
         {
-            code: 'Enter', key: 'Enter', 'id': 41, class: 'Enter',
+            code: 'Enter', key: 'Enter', 'id': 68, class: 'Enter',
         },
     ],
     [
         {
-            code: 'ShiftLeft', key: 'Shift', 'id': 42, class: 'Shift',
+            code: 'ShiftLeft', key: 'Shift', 'id': 69, class: 'Shift',
         },
         {
             code: 'KeyZ', key: 'я', shiftKey: 'Я', 'id': 43,
@@ -481,39 +481,39 @@ const russianKeys = [
             code: 'Slash', key: '.', shiftKey: ',', 'id': 52,
         },
         {
-            code: 'ArrowUp', key: '▲', 'id': 53, class: 'ArrowUp',
+            code: 'ArrowUp', key: '▲', 'id': 70, class: 'ArrowUp',
         },
         {
-            code: 'ShiftRight', key: 'Shift', 'id': 54, class: 'ShiftRight',
+            code: 'ShiftRight', key: 'Shift', 'id': 71, class: 'ShiftRight',
         },
     ],
     [
         {
-            code: 'ControlLeft', key: 'Ctrl', 'id': 55, class: 'Ctrl',
+            code: 'ControlLeft', key: 'Ctrl', 'id': 72, class: 'Ctrl',
         },
         {
-            code: 'MetaRight', key: 'Win', 'id': 56, class: 'Win',
+            code: 'MetaRight', key: 'Win', 'id': 73, class: 'Win',
         },
         {
-            code: 'AltLeft', key: 'Alt', 'id': 57, class: 'Alt',
+            code: 'AltLeft', key: 'Alt', 'id': 74, class: 'Alt',
         },
         {
-            code: 'Space', key: ' ', 'id': 58, class: 'Space',
+            code: 'Space', key: ' ', 'id': 75, class: 'Space',
         },
         {
-            code: 'AltRight', key: 'Alt', 'id': 59, class: 'Alt',
+            code: 'AltRight', key: 'Alt', 'id': 76, class: 'Alt',
         },
         {
-            code: 'ArrowLeft', key: '◄', 'id': 60, class: 'ArrowLeft',
+            code: 'ArrowLeft', key: '◄', 'id': 77, class: 'ArrowLeft',
         },
         {
-            code: 'ArrowDown', key: '▼', 'id': 61, class: 'ArrowDown',
+            code: 'ArrowDown', key: '▼', 'id': 78, class: 'ArrowDown',
         },
         {
-            code: 'ArrowRight', key: '►', 'id': 62, class: 'ArrowRight',
+            code: 'ArrowRight', key: '►', 'id': 79, class: 'ArrowRight',
         },
         {
-            code: 'ControlRight', key: 'Ctrl', 'id': 63, class: 'Ctrl',
+            code: 'ControlRight', key: 'Ctrl', 'id': 80, class: 'Ctrl',
         },
     ],
 ];
@@ -533,10 +533,13 @@ __webpack_require__.r(__webpack_exports__);
 
 
 window.addEventListener('DOMContentLoaded', () => {
+    const lang = localStorage.getItem('language');
+
     Object(_modules__WEBPACK_IMPORTED_MODULE_0__["header"])();
     Object(_modules__WEBPACK_IMPORTED_MODULE_0__["main"])();
     Object(_modules__WEBPACK_IMPORTED_MODULE_0__["footer"])();
-    Object(_modules__WEBPACK_IMPORTED_MODULE_0__["handleClick"])();
+    Object(_modules__WEBPACK_IMPORTED_MODULE_0__["generateKeyboard"])(lang);
+    Object(_modules__WEBPACK_IMPORTED_MODULE_0__["handleClick"])(_modules__WEBPACK_IMPORTED_MODULE_0__["changeLanguage"]);
 });
 
 /***/ }),
@@ -572,6 +575,7 @@ const changeInputValue = (value) => {
             textarea.value += '    ';
             break;
 
+        case 'Del':
         case 'Delete':
             if (start < textarea.value.length) {
                 textarea.value = textarea.value.slice(0, start) + textarea.value.slice(start + 1);
@@ -619,6 +623,25 @@ const changeInputValue = (value) => {
 
 /***/ }),
 
+/***/ "./src/js/modules/changeLanguage.js":
+/*!******************************************!*\
+  !*** ./src/js/modules/changeLanguage.js ***!
+  \******************************************/
+/*! exports provided: changeLanguage */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "changeLanguage", function() { return changeLanguage; });
+const changeLanguage = () => {
+    let lang = localStorage.getItem('language') ? localStorage.getItem('language') : 'eng';
+    lang === 'eng' ? lang = 'rus' : lang = 'eng';
+    localStorage.setItem('language', lang);
+    window.location.reload();
+};
+
+/***/ }),
+
 /***/ "./src/js/modules/footer/index.js":
 /*!****************************************!*\
   !*** ./src/js/modules/footer/index.js ***!
@@ -662,44 +685,44 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-const generateKeyboard = () => {
-    const lang = localStorage.getItem('language');
-    const currentLang = lang === 'rus' ? _assets_russianKeys__WEBPACK_IMPORTED_MODULE_1__["russianKeys"] : _assets_englishKeys__WEBPACK_IMPORTED_MODULE_0__["englishKeys"];
+const generateKeyboard = (language) => {
+    const container = document.querySelector('.container');
+    const lang = language === 'rus' ? _assets_russianKeys__WEBPACK_IMPORTED_MODULE_1__["russianKeys"] : _assets_englishKeys__WEBPACK_IMPORTED_MODULE_0__["englishKeys"];
 
     const keyboardContainer = document.createElement('div');
 
     keyboardContainer.classList.add('keyboard-container');
 
-    for (let i = 0; i < currentLang.length; i++) {
+    for (let i = 0; i < lang.length; i++) {
         const row = document.createElement('div');
         row.classList.add('keyboard-row');
         keyboardContainer.append(row);
 
-        for (let j = 0; j < currentLang[i].length; j++) {
+        for (let j = 0; j < lang[i].length; j++) {
             const button = document.createElement('button');
             const key = document.createElement('span');
             button.classList.add('keyboard-key');
             key.classList.add('key');
 
-            button.setAttribute('code', currentLang[i][j]['code']);
-            button.setAttribute('id', currentLang[i][j]['id']);
-            key.innerHTML = currentLang[i][j]['key'];
+            button.setAttribute('code', lang[i][j]['code']);
+            button.setAttribute('id', lang[i][j]['id']);
+            key.innerHTML = lang[i][j]['key'];
             button.append(key);
 
-            if (currentLang[i][j]['shiftKey']) {
+            if (lang[i][j]['shiftKey']) {
                 const shiftKey = document.createElement('span');
                 shiftKey.classList.add('shiftKey', 'hidden');
-                shiftKey.innerHTML = currentLang[i][j]['shiftKey'];
+                shiftKey.innerHTML = lang[i][j]['shiftKey'];
                 button.append(shiftKey);
             }
 
-            if (currentLang[i][j]['class']) button.classList.add(currentLang[i][j]['class']);
+            if (lang[i][j]['class']) button.classList.add(lang[i][j]['class']);
             row.append(button);
         }
 
     }
 
-    return keyboardContainer;
+    container.append(keyboardContainer);
 }
 
 /***/ }),
@@ -717,33 +740,77 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _changeInputValue__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./changeInputValue */ "./src/js/modules/changeInputValue.js");
 
 
-const handleClick = () => {
-    const allButtons = document.querySelectorAll('.keyboard-key');
+const handleClick = (changeLanguage) => {
 
+    let allButtons = document.querySelectorAll('.keyboard-key'),
+        capsLock = false,
+        shift = false;
 
-    const addActiveClass = (code, key) => {
+    const onClickBtn = (code, key) => {
+
+        addClassActive(code);
+
+        if (code === 'ControlLeft') {
+            document.onkeyup = (e) => {
+                if (e.code == 'AltLeft') {
+                    changeLanguage();
+                }
+            }
+
+        } else if (key === 'CapsLock') {
+            capsLock = !capsLock;
+            allButtons.forEach(btn => {
+                const id = btn.getAttribute('id');
+                if (id < 64) {
+                    for (let i = 0; i < btn.children.length; i++) {
+                        const span = btn.children[i];
+                        !span.classList.contains('hidden') ? span.classList.add('hidden') : span.classList.remove('hidden')
+                    }
+                }
+            });
+        } else if (key === 'Shift' || key === 'ShiftRight') {
+
+        } else {
+            Object(_changeInputValue__WEBPACK_IMPORTED_MODULE_0__["changeInputValue"])(key);
+        }
+
+    };
+
+    const addClassActive = (code) => {
         allButtons.forEach(btn => {
             if (btn.getAttribute('code') === code) {
                 btn.classList.add('active');
             }
         });
+    }
 
-        if (key !== 'CapsLock' && key !== 'Shift' && key !== 'ShiftRight') Object(_changeInputValue__WEBPACK_IMPORTED_MODULE_0__["changeInputValue"])(key);
-
-    };
-
-    const removeActiveClass = () => {
+    const removeClassActive = () => {
         allButtons.forEach(btn => {
-            if (!btn.classList.contains('CapsLock')) btn.classList.remove('active');
+            btn.classList.contains('CapsLock') && capsLock ? null : btn.classList.remove('active');
         });
     };
 
+    const getCurrentKey = (button) => {
+        let key = null;
+
+        for (let i = 0; i < button.children.length; i++) {
+            const span = button.children[i];
+            if (!span.classList.contains('hidden')) key = span.innerHTML;
+        }
+
+        return key;
+    }
+
     document.addEventListener('keydown', (e) => {
         e.preventDefault();
-        const code = e.code,
-            key = e.key;
+        let code = e.code,
+            key = null;
 
-        addActiveClass(code, key);
+        allButtons.forEach(btn => {
+            if (btn.getAttribute('code') === code) key = getCurrentKey(btn);
+        });
+
+        onClickBtn(code, key);
     });
 
     document.addEventListener('mousedown', (e) => {
@@ -751,19 +818,14 @@ const handleClick = () => {
 
         if (button) {
             let code = button.getAttribute('code'),
-                key = null;
+                key = getCurrentKey(button);
 
-            for (let i = 0; i < button.children.length; i++) {
-                const span = button.children[i];
-                if (!span.classList.contains('hidden')) key = span.innerHTML;
-            }
-
-            addActiveClass(code, key);
+            onClickBtn(code, key);
         }
     });
 
-    document.addEventListener('keyup', removeActiveClass);
-    document.addEventListener('mouseup', removeActiveClass);
+    document.addEventListener('keyup', removeClassActive);
+    document.addEventListener('mouseup', removeClassActive);
 
 }
 
@@ -797,7 +859,7 @@ const header = () => {
 /*!*********************************!*\
   !*** ./src/js/modules/index.js ***!
   \*********************************/
-/*! exports provided: header, main, footer, createTextarea, handleClick */
+/*! exports provided: header, main, footer, handleClick, generateKeyboard, changeLanguage */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -811,11 +873,15 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _footer__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./footer */ "./src/js/modules/footer/index.js");
 /* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "footer", function() { return _footer__WEBPACK_IMPORTED_MODULE_2__["footer"]; });
 
-/* harmony import */ var _textarea__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./textarea */ "./src/js/modules/textarea/index.js");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "createTextarea", function() { return _textarea__WEBPACK_IMPORTED_MODULE_3__["createTextarea"]; });
+/* harmony import */ var _handleClick__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./handleClick */ "./src/js/modules/handleClick.js");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "handleClick", function() { return _handleClick__WEBPACK_IMPORTED_MODULE_3__["handleClick"]; });
 
-/* harmony import */ var _handleClick__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./handleClick */ "./src/js/modules/handleClick.js");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "handleClick", function() { return _handleClick__WEBPACK_IMPORTED_MODULE_4__["handleClick"]; });
+/* harmony import */ var _generateKeyboard__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./generateKeyboard */ "./src/js/modules/generateKeyboard.js");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "generateKeyboard", function() { return _generateKeyboard__WEBPACK_IMPORTED_MODULE_4__["generateKeyboard"]; });
+
+/* harmony import */ var _changeLanguage__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./changeLanguage */ "./src/js/modules/changeLanguage.js");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "changeLanguage", function() { return _changeLanguage__WEBPACK_IMPORTED_MODULE_5__["changeLanguage"]; });
+
 
 
 
@@ -835,45 +901,24 @@ __webpack_require__.r(__webpack_exports__);
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "main", function() { return main; });
-/* harmony import */ var _textarea__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../textarea */ "./src/js/modules/textarea/index.js");
-/* harmony import */ var _generateKeyboard__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../generateKeyboard */ "./src/js/modules/generateKeyboard.js");
-
-
-
 const main = () => {
     const mainEl = document.createElement('main');
     const container = document.createElement('div');
-
-    mainEl.classList.add('main');
-    container.classList.add('container');
-
-    document.querySelector('body').append(mainEl);
-    mainEl.append(container);
-
-    container.append(Object(_textarea__WEBPACK_IMPORTED_MODULE_0__["createTextarea"])(), Object(_generateKeyboard__WEBPACK_IMPORTED_MODULE_1__["generateKeyboard"])());
-}
-
-/***/ }),
-
-/***/ "./src/js/modules/textarea/index.js":
-/*!******************************************!*\
-  !*** ./src/js/modules/textarea/index.js ***!
-  \******************************************/
-/*! exports provided: createTextarea */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "createTextarea", function() { return createTextarea; });
-const createTextarea = () => {
     const textarea = document.createElement('textarea');
 
-    textarea.classList.add('textarea');
     textarea.setAttribute('id', 'textarea');
     textarea.setAttribute('cols', '50');
     textarea.setAttribute('rows', '5');
 
-    return textarea;
+
+    mainEl.classList.add('main');
+    container.classList.add('container');
+    textarea.classList.add('textarea');
+
+    document.querySelector('body').append(mainEl);
+    mainEl.append(container);
+
+    container.append(textarea);
 }
 
 /***/ })
