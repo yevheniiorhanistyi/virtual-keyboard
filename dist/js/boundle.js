@@ -632,6 +632,7 @@ const changeInputValue = (value) => {
         case 'Win':
         case 'Alt':
         case 'AltGraph':
+        case null:
             break;
 
         default: textarea.value += value;
@@ -717,7 +718,6 @@ const handleClick = () => {
 
     const onClickBtn = (code, key) => {
         addClassActive(code);
-
         switch (key) {
             case 'Ctrl':
                 document.onkeyup = (e) => {
