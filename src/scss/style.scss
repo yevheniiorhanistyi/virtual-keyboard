@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,700&display=swap&subset=cyrillic-ext');
+@import './vendor/normalize.scss';
+@import './vendor/vars.scss';
+
+body {
+    font-family: 'Roboto', 'Arial', sans-serif;
+    font-size: 1rem;
+    line-height: 1.6;
+
+    background-color: #001e3c;
+    user-select: none;
+}
+
+*,
+*:before,
+*:after {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+}
+
+.container {
+    width: 100%;
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+/* Header */
+
+.header {
+
+    &__title {
+        font-size: 2.25rem;
+        line-height: 1.2;
+        letter-spacing: 0.2px;
+        text-align: center;
+        color: $color-primary;
+        margin: 20px 0 10px;
+    }
+}
+
+/* Main */
+
+.main {
+    margin-bottom: 10px;
+}
+
+.textarea {
+    display: block;
+    width: 100%;
+    height: 200px;
+    margin: 10px auto 10px;
+    padding: 10px;
+    font-size: 18px;
+    color: $color-primary;
+    border: 1px solid #132f4c;
+    border-radius: 10px;
+    background-color: #0a1929;
+
+    &:focus,
+    &:active {
+        outline: 1px solid #173a5e;
+    }
+}
+
+.keyboard-container {
+    width: 100%;
+    padding: 5px;
+    padding-left: 0;
+    padding-bottom: 0;
+    border: 1px solid #132f4c;
+    border-radius: 10px;
+}
+
+.keyboard-row {
+    display: flex;
+    width: 100%;
+    height: 40px;
+    margin-bottom: 8px;
+}
+
+.keyboard-key {
+    width: 40px;
+    height: 40px;
+    margin-left: 6px;
+    line-height: 40px;
+    text-align: center;
+    color: $color-key;
+    background: $color-background;
+
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+
+    position: relative;
+    transition: color $transition linear, background-color $transition linear;
+
+    &:hover {
+        color: #fff;
+        background-color: $color-background-active;
+    }
+
+    &:active {
+        top: 1px;
+        color: #fff;
+        background-color: $color-background-active;
+    }
+
+    &:focus-visible {
+        outline: none;
+    }
+}
+
+.Backspace,
+.CapsLock,
+.Enter,
+.Shift {
+    width: 100px;
+}
+
+.Delete {
+    width: 44px;
+}
+
+.ShiftRight {
+    width: 86px;
+}
+
+.Space {
+    width: 330px;
+}
+
+/* Footer */
+
+.footer {
+    text-align: center;
+
+    margin-bottom: 20px;
+
+    .description,
+    .language {
+        font-size: 1rem;
+        font-weight: 400;
+        line-height: 1.5;
+        letter-spacing: 0;
+        color: $color-text;
+    }
+}
+
+.active {
+    top: 1px;
+    color: #fff;
+    background-color: $color-background-active;
+}
+
+.hidden {
+    display: none;
+}
